@@ -8,6 +8,8 @@ import NavbarCentered from '@/components/ui/NavbarCentered';
 import ProductVariantCards from '@/components/sections/product/ProductVariantCards';
 import TestimonialAvatarCard from '@/components/sections/testimonial/TestimonialAvatarCard';
 
+import Tag from "@/tag/Tag";
+
 export default function App() {
   return (
     <>
@@ -283,6 +285,7 @@ export default function App() {
       ]}
     />
   </div>
+      <Tag />
     </>
   );
 }
